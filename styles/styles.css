@@ -3,7 +3,7 @@
   font-family: "Work Sans", sans-serif;
 }
 body{
-  width: 1850px;
+  width: 1845px;
 }
 /* shared style */
 .btn-primary {
@@ -55,6 +55,10 @@ ul > li {
 }
 ul > li a {
   text-decoration: none;
+  color: #3C354F;
+font-size: 18px;
+font-weight: 500;
+  
 }
 .follow-btn {
   width: 200px;
@@ -277,16 +281,24 @@ font-weight: 500;
 /* mobile device responsive */
 @media screen and (max-width: 428px) {
   body{
-    width:auto;
+    width:1000px;
   }
+  header nav {
+    height: auto;
+    /* width: 100px; */
+  }
+  
   nav,
   ul {
     flex-direction: column;
   }
+  .banner{
+    flex-direction: column-reverse;
+  }
 }
 /* tablet device */
 @media screen and (min-width: 426px) and (max-width: 769px) {
-  nav {
+  /* nav {
     flex-direction: column;
-  }
+  } */
 }
