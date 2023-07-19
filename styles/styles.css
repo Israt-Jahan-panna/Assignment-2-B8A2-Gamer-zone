@@ -2,7 +2,7 @@
 * {
   font-family: "Work Sans", sans-serif;
 }
-body{
+body {
   width: 1845px;
 }
 /* shared style */
@@ -15,11 +15,11 @@ body{
   gap: 10px;
   border: none;
 }
-.purple-text{
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.purple-text {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* nav style */
 header nav {
@@ -29,7 +29,7 @@ header nav {
 }
 nav {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding-left: 240px;
   padding-right: 240px;
 }
@@ -55,10 +55,9 @@ ul > li {
 }
 ul > li a {
   text-decoration: none;
-  color: #3C354F;
-font-size: 18px;
-font-weight: 500;
-  
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
 }
 .follow-btn {
   width: 200px;
@@ -78,8 +77,7 @@ font-weight: 500;
 /* banner section */
 .banner {
   display: flex;
-  gap: 70px ;
- 
+  gap: 70px;
 }
 
 .banner-content {
@@ -87,8 +85,8 @@ font-weight: 500;
   /* width: 901px;
   height: 700px; */
 }
-.banner-left{
-  margin: 147px 240px 147px 240px ;
+.banner-left {
+  margin: 147px 240px 147px 240px;
 }
 .banner-title {
   color: #0b0223;
@@ -109,10 +107,9 @@ font-weight: 500;
   font-weight: 500;
   margin-bottom: 30px;
 }
-.banner img{
-  margin-right: 240px ;
+.banner img {
+  margin-right: 240px;
 }
-
 
 .sing-up {
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
@@ -122,120 +119,117 @@ font-weight: 500;
   background: #4ec5f7;
 }
 /* online-game */
-.online-game-section{
-margin: 120px 240px 120px 240px;
-
-
+.online-game-section {
+  margin: 120px 240px 120px 240px;
 }
-.online-game-content{
+.online-game-content {
   text-align: center;
 }
-.game-card{
-display: flex;
-gap: 24px;
+.game-card {
+  display: flex;
+  gap: 24px;
 }
-.game-title{
-  color: #534C64;
-font-size:1.1rem;
-font-weight: 500;
+.game-title {
+  color: #534c64;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
-.game-tag{
-  color: #0B0223;
-font-size: 3rem;
-font-weight: 700;
-margin-bottom: 0;
+.game-tag {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
-.game-details{
-  color: #534C64;
-font-size: 18px;
-font-weight: 400;
-margin-top: 1rem;
-margin-bottom: 3rem;
+.game-details {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
-.card-img img:hover{
+.card-img img:hover {
   border-radius: 16px;
   border-radius: 16px;
-  background: url(../images/1Rectangle\ 4.png)
+  background: url(../images/1Rectangle\ 4.png);
 }
 
 /* play game */
-.play-game-section{
+.play-game-section {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px 240px 120px 240px;
 }
-.play-game-content{
-margin-right: 260px;
+.play-game-content {
+  margin-right: 260px;
 }
-.play-game-h3{
-font-size: 48px;
-font-weight: 700;
-text-align: right;
+.play-game-h3 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: right;
 }
-.details-p-tag{
-  color: #534C64;
-text-align: right;
-font-size: 18px;
-font-weight: 400;
-width: 353px;
+.details-p-tag {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  width: 353px;
 }
-.play-game-img-2{
+.play-game-img-2 {
   margin-top: -261px;
   margin-left: -100px;
 }
 /* game button */
-.game-zone{
+.game-zone {
   display: grid;
   margin: 0px 230px 120px 230px;
 }
-.game-btn{
+.game-btn {
   display: grid;
-  grid-template-columns: repeat(5 , 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
-#button-6{
+#button-6 {
   margin-left: 100px;
 }
 
-.game-btn button{
-width: 300px;
-height: 80px;
-border-radius: 50px;
-background: #FFF;
+.game-btn button {
+  width: 300px;
+  height: 80px;
+  border-radius: 50px;
+  background: #fff;
 }
 
-.btn-title{
+.btn-title {
   display: flex;
   justify-content: center;
   align-items: center;
- border: none;
- 
+  border: none;
 }
-.game-btn button:hover{
-  border: 1px solid #FF42A5;
-  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+.game-btn button:hover {
+  border: 1px solid #ff42a5;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
   background-color: white;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.btn-title span{
-     color: #0B0223;
-font-size: 1rem;
-font-weight: 600;
-padding: 29px 20px 28px 0px;
+.btn-title span {
+  color: #0b0223;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 29px 20px 28px 0px;
 }
-.btn-title img{
+.btn-title img {
   width: 60px;
-height: 60px;
-border-radius: 50px;
-padding: 10px 16px 10px 10px;
+  height: 60px;
+  border-radius: 50px;
+  padding: 10px 16px 10px 10px;
 }
 
 /* footer section */
-.footer{
-  background: #0B0223;
+.footer {
+  background: #0b0223;
   height: 636px;
 }
 .footer-title {
@@ -243,47 +237,48 @@ padding: 10px 16px 10px 10px;
   font-size: 45px;
   font-weight: 700;
 }
-.footer-info{
+.footer-info {
   display: grid;
-  grid-template-columns: repeat(6 , 100px);
-  color: #FFF;
-font-size: 16px;
-font-weight: 600;
-gap:10px;
-justify-content: center;
+  grid-template-columns: repeat(6, auto);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  gap: 60px;
+  justify-content: center;
 }
 
 .footer-logo {
   margin-top: 56px;
-text-align: center;
-text-decoration: none;
-border: none;
-border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 16px;
 }
-.footer-logo a{
+.footer-logo a {
   margin-right: 30px;
   font-size: 40px;
 }
-.footer-terms{
-  display: flex;
+.footer-terms {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
   justify-content: center;
-  color: rgba(255, 255, 255, 0.60);
-  gap: 60px;
-font-size: 16px;
-font-weight: 500;
-margin-top: 74px;
+  color: rgba(255, 255, 255, 0.6);
+  gap: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 74px;
 }
-.copy-right{
-  color: rgba(255, 255, 255, 0.60);
-text-align: center;
-font-size: 16px;
-font-weight: 500;
+.copy-right {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 /* mobile device responsive */
 @media screen and (max-width: 428px) {
-  body{
-    width:1000px;
+  body {
+    width: 1000px;
   }
   header nav {
     height: auto;
@@ -291,64 +286,71 @@ font-weight: 500;
     box-shadow: none;
   }
   nav {
-    
-    padding-left:0px;
+    padding-left: 0px;
     padding-right: 330px;
   }
   nav,
   ul,
-  .game-card 
-  {
+  .game-card {
     flex-direction: column;
   }
-  .banner{
+  .banner {
     padding-left: 100px;
-   padding-right: 66px;
+    padding-right: 66px;
   }
-  
+
   .banner,
-  .play-game-section
-  {
+  .play-game-section {
     flex-direction: column-reverse;
   }
   .game-tag {
     font-size: 2.3rem;
   }
-  .game-btn{
+  .game-btn {
     /* display: grid; */
-    margin-left: 50PX;
-    grid-template-columns: repeat(3 , 1fr);
+    margin-left: 50px;
+    grid-template-columns: repeat(3, 1fr);
   }
-  #button-6{
+  #button-6 {
     margin-left: 0;
   }
-  .game-zone{
+  .game-zone {
     margin-left: 0;
     padding-right: 50px;
   }
-  .footer{
-    background: #0B0223;
-   width: auto;
+  .footer {
+    background: #0b0223;
+    width: auto;
+    height: 880px;
   }
-  .footer-info{
-    grid-template-columns: repeat(3, 100px);
+  .footer-info {
+    grid-template-columns: repeat(3, auto);
+  }
+  .footer-terms{
+    grid-template-columns: repeat(2 , auto);
+  }
+  .footer-logo{
+    display: grid;
+    grid-template-columns: repeat(3 , auto);
   }
 }
 /* tablet device */
 @media screen and (min-width: 426px) and (max-width: 769px) {
- 
-  .footer-info{
+  .footer-info {
     grid-template-columns: repeat(3, 100px);
   }
   .game-tag {
     font-size: 2.3rem;
   }
-  .game-btn{
+  .game-btn {
     /* display: grid; */
-    margin-left: 50PX;
-    grid-template-columns: repeat(3 , 1fr);
+    margin-left: 50px;
+    grid-template-columns: repeat(3, auto);
   }
-  #button-6{
+  /* .footer-terms{
+    grid-template-columns: repeat(2 , auto);
+  } */
+  #button-6 {
     margin-left: 0;
   }
 }
