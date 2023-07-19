@@ -244,11 +244,12 @@ padding: 10px 16px 10px 10px;
   font-weight: 700;
 }
 .footer-info{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6 , 100px);
   color: #FFF;
-font-size: 18px;
+font-size: 16px;
 font-weight: 600;
-gap: 60px;
+gap:10px;
 justify-content: center;
 }
 
@@ -329,10 +330,25 @@ font-weight: 500;
     background: #0B0223;
    width: auto;
   }
+  .footer-info{
+    grid-template-columns: repeat(3, 100px);
+  }
 }
 /* tablet device */
 @media screen and (min-width: 426px) and (max-width: 769px) {
-  /* nav {
-    flex-direction: column;
-  } */
+ 
+  .footer-info{
+    grid-template-columns: repeat(3, 100px);
+  }
+  .game-tag {
+    font-size: 2.3rem;
+  }
+  .game-btn{
+    /* display: grid; */
+    margin-left: 50PX;
+    grid-template-columns: repeat(3 , 1fr);
+  }
+  #button-6{
+    margin-left: 0;
+  }
 }
