@@ -148,10 +148,40 @@ ul > li a {
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
-.card-img img:hover {
+.card-img {
+  position: relative;
+}
+.overlay a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
   border-radius: 16px;
-  border-radius: 16px;
-  background: url(../images/1Rectangle\ 4.png);
+  background-color: #0b0223;
+}
+.content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff42a5;
+  text-align: center;
+  
+}
+.card-img:hover .overlay {
+  opacity: 1;
 }
 
 /* play game */
@@ -294,22 +324,21 @@ ul > li a {
   .game-card {
     flex-direction: column;
   }
-  .online-game-content{
+  .online-game-content {
     text-align: right;
     /* margin-left: 10px; */
   }
-  .play-game-content{
+  .play-game-content {
     margin-right: 0;
   }
-  
+
   .banner {
     padding-left: 100px;
     padding-right: 66px;
   }
-  .banner-content{
+  .banner-content {
     margin-left: 0;
     margin-right: 10px;
-    
   }
   .banner,
   .play-game-section {
@@ -338,16 +367,16 @@ ul > li a {
   .footer-info {
     grid-template-columns: repeat(3, auto);
   }
-  .footer-terms{
-    grid-template-columns: repeat(2 , auto);
+  .footer-terms {
+    grid-template-columns: repeat(2, auto);
   }
-  .footer-logo{
+  .footer-logo {
     display: grid;
     gap: 20px;
     justify-content: center;
-    grid-template-columns: repeat(3 , 100px);
+    grid-template-columns: repeat(3, 100px);
   }
-  .copy-right{
+  .copy-right {
     width: 250px;
     height: 38px;
     margin-left: 378px;
