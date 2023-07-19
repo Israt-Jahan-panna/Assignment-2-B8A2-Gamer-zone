@@ -283,8 +283,6 @@ font-weight: 500;
 @media screen and (max-width: 428px) {
   body{
     width:1000px;
-    margin-left: 140px;
-    margin-right: 66px;
   }
   header nav {
     height: auto;
@@ -302,6 +300,11 @@ font-weight: 500;
   {
     flex-direction: column;
   }
+  .banner{
+    padding-left: 100px;
+   padding-right: 66px;
+  }
+  
   .banner,
   .play-game-section
   {
@@ -312,6 +315,7 @@ font-weight: 500;
   }
   .game-btn{
     /* display: grid; */
+    margin-left: 50PX;
     grid-template-columns: repeat(3 , 1fr);
   }
   #button-6{
@@ -320,6 +324,10 @@ font-weight: 500;
   .game-zone{
     margin-left: 0;
     padding-right: 50px;
+  }
+  .footer{
+    background: #0B0223;
+   width: auto;
   }
 }
 /* tablet device */
