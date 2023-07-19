@@ -294,11 +294,23 @@ ul > li a {
   .game-card {
     flex-direction: column;
   }
+  .online-game-content{
+    text-align: right;
+    /* margin-left: 10px; */
+  }
+  .play-game-content{
+    margin-right: 0;
+  }
+  
   .banner {
     padding-left: 100px;
     padding-right: 66px;
   }
-
+  .banner-content{
+    margin-left: 0;
+    margin-right: 10px;
+    
+  }
   .banner,
   .play-game-section {
     flex-direction: column-reverse;
