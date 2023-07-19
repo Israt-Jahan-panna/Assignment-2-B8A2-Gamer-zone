@@ -331,7 +331,14 @@ ul > li a {
   }
   .footer-logo{
     display: grid;
-    grid-template-columns: repeat(3 , auto);
+    gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(3 , 100px);
+  }
+  .copy-right{
+    width: 250px;
+    height: 38px;
+    margin-left: 378px;
   }
 }
 /* tablet device */
