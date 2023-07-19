@@ -148,7 +148,7 @@ ul > li a {
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
-.card-img {
+.card {
   position: relative;
   width: 100%;
 }
@@ -189,7 +189,7 @@ ul > li a {
   font-size: 30px;
 }
 
-.card-img:hover .overlay {
+.card:hover .overlay {
   opacity: 1;
 }
 
