@@ -215,6 +215,7 @@ background: #FFF;
 .game-btn button:hover{
   border: 1px solid #FF42A5;
   background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  background-color: white;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -282,18 +283,32 @@ font-weight: 500;
 @media screen and (max-width: 428px) {
   body{
     width:1000px;
+    margin-left: 140px;
+    margin-right: 66px;
   }
   header nav {
     height: auto;
-    /* width: 100px; */
+    background: none;
+    box-shadow: none;
   }
-  
+  nav {
+    
+    padding-left:0px;
+    padding-right: 330px;
+  }
   nav,
-  ul {
+  ul,
+  .game-card 
+  {
     flex-direction: column;
   }
-  .banner{
+  .banner,
+  .play-game-section
+  {
     flex-direction: column-reverse;
+  }
+  .game-tag {
+    font-size: 2.3rem;
   }
 }
 /* tablet device */
