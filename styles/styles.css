@@ -184,12 +184,14 @@ width: 353px;
 /* game button */
 .game-zone{
   display: grid;
-
-  margin: 0px 240px 120px 240px;
+  margin: 0px 230px 120px 230px;
 }
 .game-btn{
   display: grid;
   grid-template-columns: repeat(5 , 1fr);
+}
+#button-6{
+  margin-left: 100px;
 }
 
 .game-btn button{
@@ -245,9 +247,16 @@ gap: 60px;
 justify-content: center;
 }
 
-.footer-logo{
-   margin-top: 56px;
+.footer-logo {
+  margin-top: 56px;
 text-align: center;
+text-decoration: none;
+border: none;
+border-radius: 16px;
+}
+.footer-logo a{
+  margin-right: 30px;
+  font-size: 40px;
 }
 .footer-terms{
   display: flex;
