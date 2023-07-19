@@ -150,10 +150,11 @@ ul > li a {
 }
 .card-img {
   position: relative;
+  width: 100%;
 }
 .overlay a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 600;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
   background-clip: text;
@@ -164,22 +165,30 @@ ul > li a {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  border-radius: 16px;
-  background-color: #0b0223;
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: opacity 0.3s ease;
 }
 .content {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ff42a5;
   text-align: center;
+  cursor: pointer;
   
 }
+.overlay p{
+  font-size: 30px;
+}
+
 .card-img:hover .overlay {
   opacity: 1;
 }
