@@ -154,22 +154,13 @@ ul > li a {
   width: 342px;
 height: 400px;
 
-  /* max-width: 400px; */
 }
 
 .image {
     width: 100%;
     height: auto;
   }
-.overlay a {
-  text-decoration: none;
-  font-size: 26px;
-  font-weight: 600;
-  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -183,9 +174,18 @@ height: 400px;
   border-radius: 16px;
   background:  rgba(0, 0, 0, 0.60) 0;
 }
+.overlay a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .icon {
   color: white;
-  font-size: 50px;
+  font-size: 45px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -196,7 +196,7 @@ height: 400px;
 
 .icon-p {
   color: white;
-  font-size: 50px;
+  /* font-size: 50px; */
   position: absolute;
   top: 60%;
   left: 50%;
