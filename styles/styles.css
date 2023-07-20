@@ -148,10 +148,17 @@ ul > li a {
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
-.card {
+/* hover style  */
+.container {
   position: relative;
   width: 100%;
+  max-width: 400px;
 }
+
+.image {
+    width: 100%;
+    height: auto;
+  }
 .overlay a {
   text-decoration: none;
   font-size: 26px;
@@ -164,34 +171,43 @@ ul > li a {
 .overlay {
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
-  width: 100%;
+  right: 0;
   height: 100%;
-  background-color: black; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0; 
-  transition: opacity 0.3s ease;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  border-radius: 16px;
+  background:  rgba(0, 0, 0, 0.60) 0;
 }
-.content {
+.icon {
+  color: white;
+  font-size: 50px;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ff42a5;
+  -ms-transform: translate(-50%, -50%);
   text-align: center;
-  cursor: pointer;
-  
-}
-.overlay p{
-  font-size: 30px;
 }
 
-.card:hover .overlay {
+.icon-p {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .overlay {
   opacity: 1;
 }
+
+/* hover style */
 
 /* play game */
 .play-game-section {
